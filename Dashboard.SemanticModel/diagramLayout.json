@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 334,
+            "y": -50
+          },
+          "nodeIndex": "Uber",
+          "nodeLineageTag": "9df6744b-0d80-4ec9-b4a1-b4cc56e22921",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 32.666666666666671
+          },
+          "nodeIndex": "Veh_IMG",
+          "nodeLineageTag": "a9063fce-66f9-46a0-95d1-08ca8379c801",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 686.74418604651169,
+            "y": 3.6744186046511587
+          },
+          "nodeIndex": "MeasuresDax",
+          "nodeLineageTag": "1c79b810-fad9-40e7-8c65-f715c4646058",
+          "size": {
+            "height": 348,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 128.18862625240354,
+            "y": 353.33333333333337
+          },
+          "nodeIndex": "Calender",
+          "nodeLineageTag": "f0a08649-f195-4e0f-8fdd-25ff1df6ca11",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 396.85529291907028,
+            "y": 355
+          },
+          "nodeIndex": "Date_Axis",
+          "nodeLineageTag": "62053f09-f08d-4fcf-bd33-8c50648695df",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 692.85529291907028,
+            "y": 377.66666666666669
+          },
+          "nodeIndex": "Cancel Rides",
+          "nodeLineageTag": "262d9d65-9b38-4d33-974e-d909e165cc21",
+          "size": {
+            "height": 180,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 50,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

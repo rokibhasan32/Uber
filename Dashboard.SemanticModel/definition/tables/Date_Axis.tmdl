@@ -1,0 +1,48 @@
+table Date_Axis
+	lineageTag: 62053f09-f08d-4fcf-bd33-8c50648695df
+
+	column Date_Axis
+		lineageTag: 4d8fccf8-7696-4a99-8f5c-f458c7d97104
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Parameter Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Parameter Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parameter Fields'
+		isHidden
+		lineageTag: 3c367ee5-86fb-43af-84ab-785e01a1b173
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Parameter Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parameter Order'
+		isHidden
+		formatString: 0
+		lineageTag: a2b60a64-a915-4137-8c53-11104486aee5
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Date_Axis = calculated
+		mode: import
+		source =
+				{
+				    ("Month", NAMEOF('Calender'[Month]), 0),
+				    ("Quater", NAMEOF('Calender'[Quater]), 1)
+				}
+
+	annotation PBI_Id = b6a91800e6024b13a926fa983175b6fc
+

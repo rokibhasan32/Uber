@@ -1,0 +1,49 @@
+table 'Cancel Rides'
+	lineageTag: 262d9d65-9b38-4d33-974e-d909e165cc21
+
+	column 'Cancel Rides'
+		lineageTag: 8ac6003a-ad02-4b2b-b733-22658f1b634b
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Cancel Rides Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Cancel Rides Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cancel Rides Fields'
+		isHidden
+		lineageTag: 73b52520-96bd-4b0d-8d1f-2ff283fa1ed8
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Cancel Rides Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cancel Rides Order'
+		isHidden
+		formatString: 0
+		lineageTag: 011380e7-a0e8-4d22-8d10-f2c58b054f4e
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Cancel Rides' = calculated
+		mode: import
+		source =
+				{
+				    ("Driver", NAMEOF('Uber'[Driver Cancellation Reason]), 0),
+				    ("Customer", NAMEOF('Uber'[Reason for cancelling by Customer]), 1),
+				    ("Incomplete", NAMEOF('Uber'[Incomplete Rides Reason]), 2)
+				}
+
+	annotation PBI_Id = 16858c797be443eca36ea156399d1269
+

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "05bf620f6f4f6ee9cda6",
+  "displayName": "Revenue",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "pageBinding": {
+    "name": "fc51eb1ec23c873ba4b8",
+    "type": "Default",
+    "parameters": []
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F1EEEF'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "2f63860c0f286671a03e",
+      "target": "4bd20ccfa57b3cdfd1c0",
+      "type": "DataFilter"
+    },
+    {
+      "source": "64039a258d0e1933b10f",
+      "target": "d3f7e3cad0abd2408b17",
+      "type": "NoFilter"
+    }
+  ]
+}

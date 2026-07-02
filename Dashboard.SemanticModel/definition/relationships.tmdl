@@ -1,0 +1,18 @@
+relationship 932fc93a-6ce4-4b26-a4af-b640bb8df687
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Uber.Time
+	toColumn: LocalDateTable_f5b63261-0baf-457f-8aec-2d74861f31fa.Date
+
+relationship 971dd7eb-1de0-4dff-9b34-cf3fe5403e2d
+	fromColumn: Uber.VE_Type
+	toColumn: Veh_IMG.'Vehicle Type'
+
+relationship 82d98428-dbe1-4f1c-b260-6f4dfc11834a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calender.Date
+	toColumn: LocalDateTable_9486589e-0e64-4f5f-b500-e28fd5ce1a12.Date
+
+relationship 335f563c-ef3d-bce5-adb2-569b9b20d49b
+	fromColumn: Uber.Date
+	toColumn: Calender.Date
+

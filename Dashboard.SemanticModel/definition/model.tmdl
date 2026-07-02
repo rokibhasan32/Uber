@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Veh_IMG","Uber"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Veh_IMG
+ref table Uber
+ref table DateTableTemplate_80270a8e-2a82-4de0-9e9d-66930c64d2a0
+ref table LocalDateTable_f5b63261-0baf-457f-8aec-2d74861f31fa
+ref table MeasuresDax
+ref table Calender
+ref table LocalDateTable_9486589e-0e64-4f5f-b500-e28fd5ce1a12
+ref table Date_Axis
+ref table 'Cancel Rides'
+
+ref cultureInfo en-US
+

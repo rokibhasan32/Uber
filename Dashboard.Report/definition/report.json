@@ -1,0 +1,128 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU05",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Custom5678512930620866.json",
+      "reportVersionAtImport": {
+        "visual": "2.10.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "FlowVisual_C29F1DCC_81F5_4973_94AD_0517D44CC06A",
+    "htmlContent443BE3AD55E043BF878BED274D3A6865",
+    "maps"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY26SU05",
+          "path": "BaseThemes/CY26SU05.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "1659761100uber-logo-png1425359031500344.png",
+          "path": "1659761100uber-logo-png1425359031500344.png",
+          "type": "Image"
+        },
+        {
+          "name": "arrival7485601181107574.png",
+          "path": "arrival7485601181107574.png",
+          "type": "Image"
+        },
+        {
+          "name": "Custom5678512930620866.json",
+          "path": "Custom5678512930620866.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Group_1_(67)7881228196883389.png",
+          "path": "Group_1_(67)7881228196883389.png",
+          "type": "Image"
+        },
+        {
+          "name": "Icon6143038131035022.jpg",
+          "path": "Icon6143038131035022.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "IntercityComfort7891054839337507.png",
+          "path": "IntercityComfort7891054839337507.png",
+          "type": "Image"
+        },
+        {
+          "name": "location_(3)(1)8557386349154157.png",
+          "path": "location_(3)(1)8557386349154157.png",
+          "type": "Image"
+        },
+        {
+          "name": "menu_(4)(1)05787855116751495.png",
+          "path": "menu_(4)(1)05787855116751495.png",
+          "type": "Image"
+        },
+        {
+          "name": "New_Project_(83)5957195701512576.jpg",
+          "path": "New_Project_(83)5957195701512576.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}
