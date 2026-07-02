@@ -136,39 +136,6 @@ AVERAGE ( Uber[Total Distance] )
 
 ---
 
-## 📁 Suggested Repository Structure
-
-```
-uber-ride-analytics-powerbi/
-├── README.md
-├── assets/
-│   ├── 01_home.png
-│   ├── 02_revenue.png
-│   ├── 03_overview.png
-│   ├── 04_vehicle.png
-│   ├── 05_customer.png
-│   └── 06_location.png
-├── data/
-│   └── uber_bookings.csv         # raw/sample dataset (add your source data)
-├── Uber_Analytics.pbix            # main Power BI report file
-└── docs/
-    └── data-dictionary.md         # optional: full field descriptions
-```
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/<your-username>/uber-ride-analytics-powerbi.git
-   ```
-2. **Open `Uber_Analytics.pbix`** in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
-3. If prompted, point the data source to your local copy of the dataset in `/data`.
-4. Refresh the data (**Home → Refresh**) and explore the report using the vehicle-type navigator on the left of every page.
-
-> **Requirements:** Power BI Desktop (latest version recommended). No paid license needed to open and explore the `.pbix` file locally.
-
 ---
 
 ## 🔍 Key Insights
@@ -192,7 +159,7 @@ uber-ride-analytics-powerbi/
 
 ## 📄 License
 
-This project is provided as-is for portfolio/demonstration purposes. Add a license (e.g., MIT) here if you intend to open-source the underlying `.pbix` and data.
+This project is provided as-is for portfolio/demonstration purposes.
 
 ---
 
